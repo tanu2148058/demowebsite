@@ -1,0 +1,75 @@
+<html>
+<head>
+<title>DEMO Website</title>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+</style>
+</head>
+<body>
+<div class="navbar">
+  <a href="#" class="active">Home</a>
+  <a href="https://christuniversity.in/departments/main%20campus/school%20of%20sciences/statistics">About Us</a>
+  <a href="https://christuniversity.in/bangalore-central-campus">Contact Us</a>
+  <a id="btn1" href="https://forms.gle/JqSwnAiUwLddXQQN9" class="right">Register</a>
+</div>
+<div class="header">
+  <h1>My Demo Website</h1>
+  <p>A <b>responsive</b> website created by me.</p>
+</div>
+<img src="https://www.sendiancreations.com/wp-content/uploads/2020/02/Full-Ecommerce-Website-Development-Guide.jpg" width="1500" height="600">
+
+</body>
+</html>
